@@ -1,0 +1,52 @@
+html {
+	-webkit-appearance: none;
+}
+
+
+.top-nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.top-nav li {
+	float: right;
+	display: block;
+	padding: 8px;
+}
+
+.logo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -150px;
+}
+
+.search-box {
+	position: absolute;
+}
+
+.bottom-nav {
+	width: 100%;
+	position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+
+.bottom-nav li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	display: inline;
+}
+.right-bottom-nav {
+	float: right;
+	position: relative;
+}
+
+.right-bottom-nav li {
+	padding: 8px;
+}
