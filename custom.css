@@ -28,25 +28,61 @@ html {
 	position: absolute;
 }
 
+/*Footer*/
+
 .bottom-nav {
-	width: 100%;
+	width: 100vw;
+	height: 5vh;
 	position: absolute;
-    bottom: 5px;
-    left: 10px;
+    bottom: 1px;
+    background-color: grey;
+  
 }
 
-.bottom-nav li {
+.bottom-nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	display: inline;
+	
 }
 .right-bottom-nav {
 	float: right;
 	position: relative;
+	
 }
 
 .right-bottom-nav li {
 	padding: 8px;
+	display: inline;
+	padding-right: 25px;
 }
+
+/*Left Nav*/
+
+.left-bottom-nav ul{
+	float: left;
+	position: relative;
+	display: block;
+
+
+}
+
+.left-bottom-nav li {
+	padding: 10px;
+	display: inline;
+  
+}
+
+
+
+
+}
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
