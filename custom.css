@@ -48,36 +48,41 @@ html {
 }
 .right-bottom-nav {
 	float: right;
-	position: relative;
 	
 }
 
 .right-bottom-nav li {
-	padding: 8px;
+	
+	padding-right: 28px;
 	display: inline;
-	padding-right: 25px;
+	padding-bottom: 35px;
 }
 
-/*Left Nav*/
+.right-bottom-nav li a {
+	color: black;
+	display: inline-block;
+	
+}
 
-.left-bottom-nav ul{
-	float: left;
-	position: relative;
-	display: block;
-
-
+}
+.left-bottom-nav {
+	float: right;
+	
 }
 
 .left-bottom-nav li {
-	padding: 10px;
+	
+	padding-right: 28px;
 	display: inline;
-  
+	padding-bottom: 35px;
 }
 
-
-
-
+.left-bottom-nav li a {
+	color: black;
+	display: inline-block;
+	
 }
+
 a:link {
     text-decoration: none;
 }
@@ -85,4 +90,3 @@ a:link {
 a:hover {
     text-decoration: underline;
 }
-
