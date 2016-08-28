@@ -18,7 +18,7 @@ html {
 
 .logo {
   position: fixed;
-  top: 50%;
+  top: 40%;
   left: 50%;
   margin-top: -50px;
   margin-left: -150px;
@@ -28,7 +28,7 @@ html {
 	position: absolute;
 }
 
-/*Footer*/
+/*Footer
 
 .bottom-nav {
 	width: 100vw;
@@ -83,10 +83,35 @@ html {
 	
 }
 
+*/
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+    position: absolute;
+    width: 99vw;
+    height: 6vh;
+    bottom: 0;
+}
+
+
+.bottom-nav li a {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+
 a:link {
     text-decoration: none;
 }
 
-a:hover {
+ li a:hover {
     text-decoration: underline;
 }
+
