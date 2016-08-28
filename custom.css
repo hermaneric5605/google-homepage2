@@ -39,6 +39,15 @@ body {
 	
 }
 
+.top-nav img {
+	border-radius: 25px;
+}
+
+.top-nav li a {
+	color:grey
+	
+}
+
 
 
 span.left {
