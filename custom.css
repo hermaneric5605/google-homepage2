@@ -85,6 +85,9 @@ html {
 
 */
 
+
+/*
+
 footer ul {
     list-style-type: none;
     margin: 0;
@@ -95,10 +98,11 @@ footer ul {
     width: 99vw;
     height: 6vh;
     bottom: 0;
+
 }
 
 
-.bottom-nav li a {
+.bottom-nav li a{
     display: inline;
     color: white;
     text-align: center;
@@ -114,4 +118,67 @@ a:link {
  li a:hover {
     text-decoration: underline;
 }
+
+.right-bottom-nav li a {
+	float: right;
+	
+}
+
+.left-bottom-nav li a {
+	float: left;
+}
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+
+span.left {
+	float: left;
+	display: block;
+	width: 25%;
+	padding-left: 10px;
+}
+
+span.right {
+	float: right;
+	display: block;
+	width: 70%;
+	text-align: right;
+}
+
+#nav {
+	margin: 0;
+	padding: 0;
+}
+
+#nav li {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0 10px;
+	display: inline;
+
+
+}
+
+footer {
+	width: 100vw;
+	height: 6vh;
+	position: absolute;
+    bottom: 1px;
+    background-color: grey;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+ li a:hover {
+    text-decoration: underline;
+}
+
 
